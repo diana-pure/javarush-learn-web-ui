@@ -1,0 +1,175 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: #C0C6DC;
+    margin: 0;
+}
+
+aside {
+    background: #E0EBFEB2;
+    width: 370px;
+    border-radius: 40px;
+}
+
+ol {
+    padding: 0;
+    padding-left: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    width: 290;
+    height: 48;
+    top: 450px;
+    left: 80px;
+    border-radius: 16px;
+    gap: 10px;
+    padding-top: 14px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    border: 1px solid #7549EA;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 22px;
+    color: #1F2937;
+}
+
+.wrapper {
+    width: 1200px;
+    border-radius: 40px;
+    background: #FFFFFF;
+    margin: 27px auto;
+    display: flex;
+    padding: 13px 18px;
+    gap: 60px;
+}
+
+.interest {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.aside-box {
+    padding: 40px;
+}
+
+.buttons-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top-btn {
+    background: #7549EA;
+    color: #fff;
+}
+
+
+.bot-btn {
+    background: inherit;
+    color: #7549EA;
+}
+
+.followers-counter {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #4A5161;
+    padding-left: 16px;
+}
+
+.friends {
+    margin: 48px 0;
+}
+
+.interest-item {
+    height: 24;
+    border-radius: 6px;
+    gap: 10px;
+    padding-right: 8px;
+    padding-left: 8px;
+    background: #7549EA33;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #7549EA;
+    margin: 0;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 73px;
+}
+
+.info-box>p {
+    display: flex;
+    gap: 24px;
+}
+
+.info-box>p>b {
+    width: 80px;
+}
+
+.text {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #4A5161;
+}
+
+li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+li::marker {
+    font-weight: bold;
+}
+
+.list-item {
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.inner-list{
+    margin-top: 10px;
+}
+.inner-list>li {
+    font-weight: 400;
+    color: #4A5161;
+    list-style-type: disc;
+}
+
+.bold-text{
+    font-weight: 700;
+    color: #1F2937;
+}
+
+ul {
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
